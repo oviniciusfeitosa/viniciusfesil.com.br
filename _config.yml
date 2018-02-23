@@ -1,0 +1,28 @@
+# Site settings
+title: Vinícius Feitosa da Silva
+description: DevPage
+owner: PHPDF
+url: "https://phpdf.org.br"
+image: "/images/logo-azul-branco-300x300.png"
+baseurl: ""
+social:
+  joindin: https://joind.in/search?keyword=phpdf
+  twitter: https://twitter.com/phpdf_
+  github: https://github.com/php-df
+  facebook-official: https://www.facebook.com/groups/518644508178778/
+  instagram: https://www.instagram.com/phpdf/
+  whatsapp: https://chat.whatsapp.com/invite/AJkY9ZIlCyOJygPb83KMI5
+  telegram: https://telegram.me/phpdf
+  meetup: https://www.meetup.com/pt-BR/php-df/
+  email: contato@phpdf.org.br
+
+# Build settings
+markdown: kramdown
+
+# Google-analytics
+google-analytics:
+  id: "UA-109844866-1"
+plugins:
+  - jekyll-paginate
+paginate: 4
+paginate_path: "/eventos/page:num"

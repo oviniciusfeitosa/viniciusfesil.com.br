@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<!-- Banner -->
+<section id="banner">
+    {% include banner.html %}
+</section>
+
+<section id="eventos_board" class="wrapper eventos_board special">
+
+<div class="inner">
+    <header class="major">
+        <h2>Encontros e eventos</h2>
+        <p>
+            Estes são nossos encontros e eventos mais recentes.
+        </p>
+    </header>
+    <ul class="features">
+        {% for post in paginator.posts  %}
+            <li class="icon fa-{{ post.icon | escape }}">
+                <h3>{{ post.title | escape }}</h3>
+                {% assign date_format = site.minima.date_format | default: "%d/%m/%Y  · %k:%M" %}
+                <small>{{ post.date | date: date_format }}</small>
+                <p>
+                    <span>
+                        {{ post.description }}
+                    </span>
+
+                    {% if(post.link and post.link != '') %}
+                        <a href="{{ post.link }}" class="button fit" target="_blank">Saiba mais</a>
+                    {% endif %}
+                </p>
+            </li>
+        {% endfor %}
+    </ul>
+    <!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Anterior - </a>
+  {% else %}
+    <span class="previous">Anterior - </span>
+  {% endif %}
+  <span class="page_number ">Página: {{ paginator.page }} de {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">- Próxima</a>
+  {% else %}
+    <span class="next ">- Próxima</span>
+  {% endif %}
+</div>
+</div>
+
+</section>
