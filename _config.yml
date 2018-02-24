@@ -11,8 +11,6 @@ social:
   github: https://github.com/vinnyfs89
   facebook-official: https://www.facebook.com/groups/vinnyfs89/
   instagram: https://www.instagram.com/vinnyfs89/
-  whatsapp: {{@todo: Whatsapp webapp + Phone number}}
-  telegram: {{@todo: Telegram webapp + nickname}}
   email: viniciusfesil@gmail.com
 
 # Build settings
@@ -20,7 +18,7 @@ markdown: kramdown
 
 # Google-analytics
 google-analytics:
-  id: "{{@todo: Preencher aqui}}"
+  id:
 plugins:
   - jekyll-paginate
 paginate: 4
