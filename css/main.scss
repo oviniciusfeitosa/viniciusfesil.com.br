@@ -225,7 +225,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
-		&.eventos {
+		&.blog {
 			.features{
 				span{
 					display: block;
@@ -516,7 +516,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			color: _palette(accent3, bg);
 		}
 
-		&.eventos {
+		&.blog {
 			color: _palette(accent4, bg);
 		}
 	}
@@ -1265,7 +1265,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include wrapper(accent5);
 		}
 
-		&.eventos {
+		&.blog {
 			background-color: _palette(bg);
 		}
 

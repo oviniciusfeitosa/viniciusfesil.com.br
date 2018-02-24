@@ -6,11 +6,10 @@ url: "https://viniciusfesil.com.br"
 image: "/images/logo-azul-branco-300x300.png"
 baseurl: ""
 social:
-  joindin: https://joind.in/search?keyword=phpdf
   twitter: https://twitter.com/vinnyfs89
   github: https://github.com/vinnyfs89
   facebook-official: https://www.facebook.com/groups/vinnyfs89/
-  instagram: https://www.instagram.com/vinnyfs89/
+  instagram: https://www.instagram.com/vinnyfs89
   email: viniciusfesil@gmail.com
 
 # Build settings
@@ -22,4 +21,4 @@ google-analytics:
 plugins:
   - jekyll-paginate
 paginate: 4
-paginate_path: "/eventos/page:num"
+paginate_path: "/blog/page:num"

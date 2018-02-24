@@ -1,12 +1,12 @@
 <div class="inner">
     <header class="major">
-        <h2>Encontros e eventos</h2>
+        <h2>Blog</h2>
         <p>
-            Estes são nossos encontros e eventos mais recentes.
+            <!--Atividades recentes:-->
         </p>
     </header>
     <ul class="features">
-        {% for post in site.categories.eventos limit:4 %}
+        {% for post in site.categories.blog limit:4 %}
             <li class="icon fa-{{ post.icon | escape }}">
                 <h3>{{ post.title | escape }}</h3>
                 {% assign date_format = site.minima.date_format | default: "%d/%m/%Y  · %k:%M" %}
@@ -30,7 +30,7 @@
 <div class="inner">
     <ul class="features">
         <li>
-            <a href="/eventos" class="button fit">VER MAIS EVENTOS...</a>
+            <a href="/blog" class="button fit">Ver mais</a>
         </li>
     </ul>
    
