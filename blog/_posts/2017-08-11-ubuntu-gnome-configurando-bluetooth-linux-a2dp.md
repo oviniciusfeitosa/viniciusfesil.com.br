@@ -23,6 +23,7 @@ tags:
 - bluez-firmware
 - Gnome
 comments: []
+icon: code
 ---
 <p>Bom dia, tudo j&oacute;ia?</p>
 <p>Recentemente enfrentei alguns problemas pra conseguir instalar os drivers corretos para usar um adaptador Bluetooth no Ubuntu Gnome para se conectar com um fone de ouvido JBL Everest 300.</p>

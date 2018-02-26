@@ -1,5 +1,6 @@
 ---
 layout: post
+icon: code
 status: publish
 published: true
 title: Logar com privil&eacute;gios de administrador e limpar cache no MAC OS

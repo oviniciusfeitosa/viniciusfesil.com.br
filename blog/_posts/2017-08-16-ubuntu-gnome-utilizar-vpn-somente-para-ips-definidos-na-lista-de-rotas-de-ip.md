@@ -21,6 +21,7 @@ tags:
 - VPN
 - ip route
 comments: []
+icon: code
 ---
 <p>Hey!</p>
 <p>Recentemente tive alguns problemas para conseguir utilizar a VPN do local que trabalho somente para rotas espec&iacute;ficas.</p>

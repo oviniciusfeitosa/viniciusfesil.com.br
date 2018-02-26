@@ -1,4 +1,5 @@
 ---
+icon: calendar
 layout: post
 status: publish
 published: true

@@ -13,6 +13,7 @@ wordpress_id: 428
 wordpress_url: http://viniciusfesil.com.br/?p=428
 date: '2017-07-20 08:00:57 -0300'
 date_gmt: '2017-07-20 08:00:57 -0300'
+icon: code
 categories:
 - PHP
 - Docker

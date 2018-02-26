@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Docker + PHPUnit
+icon: code
 author:
   display_name: admin
   login: admin
