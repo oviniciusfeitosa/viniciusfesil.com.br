@@ -1,10 +1,6 @@
 ---
-layout: default
+layout: blog
 ---
-<!-- Banner -->
-<section id="banner">
-    {% include banner.html %}
-</section>
 
 <section id="blog_board" class="wrapper blog_board special">
 
@@ -23,9 +19,7 @@ layout: default
                         {{ post.description }}
                     </span>
 
-                    {% if(post.link and post.link != '') %}
-                    <a href="{{ post.link }}" class="button fit" target="_blank">Saiba mais</a>
-                    {% endif %}
+                    <a href="{{ post.url }}" class="button fit" target="_blank">Saiba mais</a>
                 </p>
             </li>
             {% endfor %}

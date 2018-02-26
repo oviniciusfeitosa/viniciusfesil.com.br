@@ -7,7 +7,6 @@ author:
   display_name: admin
   login: admin
   email: viniciusfesil@gmail.com
-  url: ''
 author_login: admin
 author_email: viniciusfesil@gmail.com
 wordpress_id: 23
