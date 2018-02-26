@@ -1261,6 +1261,10 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include wrapper(accent1);
 		}
 
+		&.post {
+			@include wrapper(accent1);
+		}
+
 		&.patrocinadores {
 			@include wrapper(accent5);
 		}
@@ -1583,7 +1587,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		&:after {
 			@include vendor('pointer-events', 'none');
 			@include vendor('transition', 'opacity #{_duration(fadein)} ease-in-out');
-			@include vendor('transition-delay', '1.25s');
+			@include vendor('transition-delay', '0.1s');
 			content: '';
 			background: _palette(bg);
 			display: block;
