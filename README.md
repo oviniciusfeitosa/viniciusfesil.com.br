@@ -40,9 +40,7 @@ Contribuindo
 
     * Acesse o link `http://localhost:4000` no seu navegador e divirta-se!
     
-
  [issue]: https://github.com/php-fig/php-fig.github.com/issues
  [edit]:  https://github.com/blog/905-edit-like-an-ace
-
 
 >Tema em jekyll por [@arkadianriver](https://github.com/arkadianriver/spectral/)
